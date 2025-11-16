@@ -7,7 +7,7 @@ This repository contains the official implementation of MFSFNet, a novel network
 2) We propose an MFS module to select global complementary features in the frequency domain. It further extracts useful representations in the spatial domain to suppress modality-specific noise.
 
 3) We propose an MFF module that simultaneously leverages multi-frequency representations and channel information to capture long-range dependencies and inter-channel relationships. Experiments conducted on the ISPRS Vaihingen and Potsdam datasets demonstrate that the proposed method achieves competitive semantic segmentation performance with lower computational complexity.
-4) 
+
 ## Installation
 1. Requirements
    
@@ -21,7 +21,7 @@ This repository contains the official implementation of MFSFNet, a novel network
 - ipython==8.12.3
 
 ## Demo
-To quickly test the MGFNet with randomly generated tensors, you can run the demo.py file. This allows you to verify the model functionality without requiring a dataset.
+To quickly test the MFSFNet with randomly generated tensors, you can run the demo.py file. This allows you to verify the model functionality without requiring a dataset.
 1. Ensure that the required dependencies are installed:
 ```
 pip install -r requirements.txt
